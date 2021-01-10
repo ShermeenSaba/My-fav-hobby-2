@@ -1,0 +1,61 @@
+body {
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    color: azure;
+    padding-top: 90px;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 25px;
+    background: linear-gradient(yellow, white)
+}
+
+.menu {
+    position: absolute;
+    font-size: 30x;
+    font-family: cursive;
+    list-style: none;
+    z-index: 10;
+    cursor: pointer;
+    top: 10px;
+    right: 30px;
+}
+
+.list {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: crimson;
+}
+
+.list:hover {
+    background-color: black;
+    font-size: 30px;
+}
+
+#welcome {
+    background: linear-gradient(Red, White);
+    z-index: 9;
+}
+
+.line {
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    text-align: center;
+    margin-left: 39%;
+}
